@@ -1,0 +1,521 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 1px;
+
+}
+
+/* This is nav section  */
+.nav-continear {
+    max-width: 1400px;
+    background: #FFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.menu-logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.menu-logo p {
+    font-size: 2rem;
+    color: #0B0223;
+    font-size: 2.81rem;
+    font-weight: 700;
+}
+
+.menu-logo span {
+    color: #FF42A5;
+}
+
+.menu-logo img {
+    width: 50px;
+    height: 30px;
+}
+
+.menu-item {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+    color: #3C354F;
+    text-align: center;
+    font-size: 1.12rem;
+    font-weight: 500;
+}
+
+.youtube-tiktok-logo {
+    padding: 5px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+
+.youtube {
+    color: red;
+}
+
+/* This is menu cover section  */
+.menu-cover-section {
+    display: flex;
+    max-width: 1400px;
+    min-height: 50px;
+    margin: 50px auto 0;
+    text-align: center;
+    align-items: center;
+}
+
+.menu-cover-left {
+    width: 50%;
+}
+
+.Download {
+    color: #FF42A5;
+}
+
+.play {
+    color: #FF42A5;
+    ;
+}
+
+.menu-cover-right img {
+    width: 60%;
+}
+
+.cover-title {
+    color: #0B0223;
+    font-size: 3rem;
+}
+
+.goat {
+    background-image: linear-gradient(to bottom, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 5.9rem;
+    font-weight: 800;
+}
+
+.cover-p {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.batton-continear {
+    padding-top: 20px;
+}
+
+.btn-1 {
+    padding: 10px 20px;
+    gap: 10px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    color: #FFF;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: none;
+}
+
+.btn-2 {
+    padding: 10px 20px;
+    gap: 10px;
+    border-radius: 46px;
+    background: #4EC5F7;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
+}
+
+/* This is We Are Gamer Section  */
+.we-are-gamer-continear {
+    display: flex;
+    max-width: 1400px;
+    min-height: 50px;
+    margin: 50px auto 0;
+    text-align: center;
+    align-items: center;
+}
+
+.we-are-img img {
+    width: 90%;
+    margin-left: 80px;
+}
+
+.We-are-gamer-text {
+    width: 70%;
+    margin-right: 50px;
+}
+
+.color-text {
+    background-image: linear-gradient(to bottom, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.We-are-gamer-text p {
+    color: #534C64;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.btn {
+    padding: 10px 20px;
+    gap: 10px;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border: none;
+}
+
+.Our-purpose-p {
+    color: #534C64;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 20px;
+}
+
+/* <!-- This is Online Games Funny Videos Section  --> */
+
+.online-funny-games {
+    max-width: 1400px;
+    min-height: 400px;
+    margin: 50px auto 0;
+    text-align: center;
+}
+
+.funny-games-title {
+    text-align: center;
+}
+
+.funny-games-title h1 {
+    padding: 10px;
+}
+
+.funny-text-color {
+    background-image: linear-gradient(to bottom, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.funny-games-title p {
+    color: #534C64;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.game-card img {
+    width: 242px;
+    height: 300px;
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.game-card {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-paragraph {
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* This is 3rd Anniversary Sections */
+
+.anniversary-continear {
+    display: flex;
+    max-width: 1400px;
+    height: 600px;
+    margin: 50px auto 0px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: right;
+    position: relative;
+
+}
+
+.horse-img img {
+    width: 60%;
+    margin-right: 100px;
+    border-radius: 8px;
+    background: url(<path-to-image>), lightgray -7.583px 0px / 102.389% 100% no-repeat;
+}
+
+.anniversary-girl img {
+    width: 15%;
+    height: 40%;
+    border-radius: 8px;
+    border: 10px solid #FFF;
+    background: url(<path-to-image>), lightgray 0px -0.304px / 100% 117.229% no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 52%;
+}
+
+.anniversary-left {
+    text-align: right;
+    width: 40%;
+    margin-left: 150px;
+    margin-bottom: 90px;
+
+}
+
+.anniversary-left span {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #F948B2;
+}
+
+.anniversary-left h1 {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.anniversary-left p {
+    color: #534C64;
+    font-size: 1.12rem;
+    font-weight: 400;
+    padding: 20px;
+}
+
+/* This is Buttons Sections */
+
+
+.battons-conteniar {
+    min-height: 300px;
+    margin-top: 50px;
+    gap: 50px;
+    max-width: 1400px;
+    margin: 50px auto 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.buttons {
+    border-radius: 50px;
+    background: #FFF;
+}
+
+.buttons img {
+    width: 60px;
+    height: 60px;
+}
+
+.all-buttons {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    background-color: #FFF;
+    border-radius: 50px;
+}
+
+.buttons h3:hover {
+    cursor: pointer;
+    color: #FF42A5;
+}
+
+.buttons:hover {
+    background-image: linear-gradient(#FF42A5, #FF42A5);
+
+}
+
+/* This Is Footer Section  */
+
+.footer-continear {
+    min-height: 500px;
+    background: #0B0223;
+    max-width: 1400px;
+    margin: 50px auto 0px;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    padding-top: 80px;
+
+}
+
+.footer-logo img {
+    width: 60px;
+    height: 40px;
+}
+
+.footer-logo h2 {
+    font-size: 2.81rem;
+    font-weight: 700;
+}
+
+.footer-logo h2 span {
+    color: #FF42A5;
+}
+
+.menu-suport {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 60px;
+    padding-top: 50px;
+    color: #FFF;
+    font-size: 1.12rem;
+}
+
+.social-link {
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+.Terms-and-Conditions {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    list-style: none;
+    gap: 20px;
+}
+
+.copy-right-text {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* This Is Responsive Sections  */
+
+/* Mobile responsive */
+
+@media screen and (max-width: 576px) {
+    .menu-logo {
+        flex-direction: column;
+    }
+
+    .nav-continear,
+    .menu-item,
+    .menu-cover-section {
+        flex-direction: column;
+    }
+
+    .menu-cover-section {
+        flex-direction: column-reverse;
+    }
+
+    .goat {
+        font-size: 3rem;
+    }
+
+    .we-are-img {}
+
+    .we-are-gamer-continear {
+        flex-direction: column;
+    }
+
+    .we-are-img img {
+        margin-left: 0%;
+    }
+
+    .we-are-img img {
+        margin-top: 20px;
+    }
+
+    .cover-title {
+        font-size: 2rem;
+        font-family: none;
+    }
+
+    .batton-continear {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .We-are-gamer-text {
+        margin-right: 0;
+    }
+
+    strong {
+        font-family: none;
+    }
+
+    .funny-games-title p {
+        font-size: 14px;
+    }
+
+    .game-card {
+        flex-direction: column;
+    }
+    .anniversary-continear{
+        flex-direction: column-reverse;
+        text-align: left;
+    }
+    .anniversary-left span{
+        font-size: 23px;
+    }
+    .anniversary-left h1{
+        font-size: 25px;
+    }
+    .anniversary-girl img{
+        width: 30%;
+        height: 25%;
+        top: 10%;
+        left: 30%;
+    }
+    .horse-img img{
+        width: 40%;
+    }
+    .anniversary-left {
+        text-align: left;
+        width: 70%;
+        margin-left: 70px;
+    }
+    .anniversary-left p {
+    text-align: left;
+    }
+    .battons-conteniar{
+        flex-direction: column;
+    }
+    .menu-suport{
+        flex-wrap: wrap;
+    }
+}
