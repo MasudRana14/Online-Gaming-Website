@@ -62,10 +62,12 @@
 .youtube {
     color: red;
 }
-.youtube:hover{
+
+.youtube:hover {
     cursor: pointer;
 }
-.tiktok:hover{
+
+.tiktok:hover {
     cursor: pointer;
 }
 
@@ -140,11 +142,13 @@
     font-weight: 600;
     border: none;
 }
-.btn-1:hover{
+
+.btn-1:hover {
     cursor: pointer;
-    color:rgb(8, 4, 252);
+    color: rgb(8, 4, 252);
 }
-.btn-2:hover{
+
+.btn-2:hover {
     cursor: pointer;
     color: #ffee00;
 }
@@ -194,9 +198,10 @@
     font-weight: 500;
     border: none;
 }
-.btn:hover{
+
+.btn:hover {
     cursor: pointer;
-    color:rgb(0, 255, 128);
+    color: rgb(0, 255, 128);
 }
 
 .Our-purpose-p {
@@ -446,9 +451,7 @@
 /* Mobile responsive */
 
 @media screen and (max-width: 576px) {
-    .menu-logo {
-        flex-direction: column;
-    }
+   
 
     .nav-continear,
     .menu-item,
@@ -503,37 +506,46 @@
     .game-card {
         flex-direction: column;
     }
-    .anniversary-continear{
+
+    .anniversary-continear {
         flex-direction: column-reverse;
         text-align: left;
     }
-    .anniversary-left span{
+
+    .anniversary-left span {
         font-size: 23px;
     }
-    .anniversary-left h1{
+
+    .anniversary-left h1 {
         font-size: 25px;
     }
-    .anniversary-girl img{
+
+    .anniversary-girl img {
         width: 30%;
         height: 25%;
         top: 10%;
         left: 30%;
     }
-    .horse-img img{
+
+    .horse-img img {
         width: 40%;
     }
+
     .anniversary-left {
         text-align: left;
         width: 70%;
         margin-left: 70px;
     }
+
     .anniversary-left p {
-    text-align: left;
+        text-align: left;
     }
-    .battons-conteniar{
+
+    .battons-conteniar {
         flex-direction: column;
     }
-    .menu-suport{
+
+    .menu-suport {
         flex-wrap: wrap;
     }
 }
