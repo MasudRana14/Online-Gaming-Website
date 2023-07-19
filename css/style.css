@@ -35,6 +35,9 @@
 .menu-logo span {
     color: #FF42A5;
 }
+.menu-item li:hover{
+    cursor: pointer;
+}
 
 .menu-logo img {
     width: 50px;
@@ -431,7 +434,7 @@
 }
 .social-link button:hover{
     cursor: pointer;
-    color: red;
+    color: re;
 }
 
 .copy-right-text {
