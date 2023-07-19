@@ -7,7 +7,7 @@
 * {
     box-sizing: border-box;
     margin: 1px;
-
+    padding: 0%;
 }
 
 /* This is nav section  */
@@ -32,7 +32,6 @@
     font-size: 2.81rem;
     font-weight: 700;
 }
-
 .menu-logo span {
     color: #FF42A5;
 }
@@ -218,6 +217,9 @@
     min-height: 400px;
     margin: 50px auto 0;
     text-align: center;
+}
+.img-btn:hover{
+    cursor: pointer;
 }
 
 .funny-games-title {
@@ -426,6 +428,10 @@
     padding-top: 50px;
     list-style: none;
     gap: 20px;
+}
+.social-link button:hover{
+    cursor: pointer;
+    color: red;
 }
 
 .copy-right-text {
