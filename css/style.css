@@ -13,7 +13,7 @@
 /* This is nav section  */
 .nav-continear {
     max-width: 1400px;
-    background: #FFF;
+    background: #f5f4f4;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -118,7 +118,6 @@
     font-size: 20px;
     font-weight: 500;
 }
-
 .batton-continear {
     padding-top: 20px;
 }
@@ -497,7 +496,13 @@
 
     .batton-continear {
         display: flex;
-        flex-direction: column;
+        gap: 5px;
+    }
+    .btn-1{
+        padding: 7px 7px;
+    }
+    .btn-2{
+        padding: 4px 4px;
     }
 
     .We-are-gamer-text {
@@ -549,12 +554,96 @@
     .anniversary-left p {
         text-align: left;
     }
-
-    .battons-conteniar {
-        flex-direction: column;
-    }
-
     .menu-suport {
         flex-wrap: wrap;
     }
+    .all-buttons {
+        width: 100%;
+    }
+    .buttons img{
+        width: 30px;
+        height: 30px;
+    }
+    .buttons h3{
+        font-size: 16px;
+    }
+    .Terms-and-Conditions{
+        flex-direction: column;
+    }
+    .menu-suport{
+        font-size: 1rem;
+    }
+    .social-link{
+        width: 30%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin-left: 35%;
+    }
+}
+
+
+/* Tab responsive  */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .nav-continear, 
+    .game-card{
+        flex-wrap: wrap;
+    }
+    .menu-cover-section, 
+    .we-are-gamer-continear{
+        flex-direction: column;
+    }
+    .We-are-gamer-text {
+        margin: 0%;
+    }
+    .we-are-img img{
+        margin-left: 0%;
+    }
+
+     .anniversary-continear {
+        flex-direction: column-reverse;
+    }
+
+    .anniversary-left span {
+        font-size: 30px;
+    }
+
+    .anniversary-left h1 {
+        font-size: 25px;
+    }
+
+    .anniversary-girl img {
+        width: 30%;
+        height: 30%;
+        top: 20%;
+        left: 25%;
+    }
+
+    .horse-img img {
+        width: 40%;
+    }
+
+    .anniversary-left {
+        text-align: left;
+        width: 70%;
+        margin-left: 70px;
+        padding-top: 20px;
+    }
+    .battons-conteniar{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .all-buttons{
+        width: 100%;
+    }
+    .buttons img{
+        width: 30px;
+        height: 30px;
+    }
+    .menu-suport{
+        flex-wrap: wrap;
+    }
+    .copy-right-text{
+        padding-bottom: 20px;
+    }
+
 }
